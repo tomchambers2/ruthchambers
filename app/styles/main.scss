@@ -1,0 +1,232 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+// endbower
+
+/* index 3 */
+.banner {
+    height: 140px;
+    background-color: #4E3571;
+    line-height: 140px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    background: linear-gradient(to bottom, #4E3571, #37254F 70%, #241833);
+}
+
+/*
+go two
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: url(../images/crystal-bg.png);
+}
+@font-face {
+    font-family: Candela;
+    src: url(../images/CandelaBook.otf);
+}
+@font-face {
+    font-family: Enriqueta;
+    src: url(../images/Enriqueta-Regular.otf);
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+.row.content {
+    margin-top: 0;
+}
+.big-picture {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 275px;
+    border-bottom: 7px solid #655280;
+}
+h1 {
+    //position: absolute;
+    //top: 0;
+    //margin-top: 0;
+    text-align: center;
+    //background: #553680;
+    //background: radial-gradient(ellipse, rgba(85,54,128,0.5) 10%, rgba(0,0,0,0));
+    color: #fff;
+    padding: 10px 30px;
+    font-family: Helvetica;
+    font-size: 2.5em;
+    font-family: 'Merriweather', sans-serif;
+
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background: #655280;
+    border-radius: 4px;
+    margin-top: -1em;
+    margin-bottom: 0;
+}
+h2 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+    //text-transform: uppercase;
+    font-size: 1.1em;
+    background: #655280;
+    color: #fff;
+    padding: 3px 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.body {
+    padding: 30px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    background: #fff;
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    height: 40px;
+    line-height: 40px;
+    //padding: 40px;
+    ul {
+        padding-left: 0;
+    }
+    li {
+        background: #fff;
+
+        color: #706480;
+        float: left;
+        width: 24%;
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+        font-size: 1.25em;
+        color: #fff;
+        box-sizing: border-box;
+        margin-right: 1%;
+
+        color: #655280;
+        //color: #A33AA7;
+        border-radius: 4px;
+        font-weight: bold;
+        //border: 1px solid #655280;
+        //margin-right: 5px;
+    }
+    li:last-of-type {
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    nav {
+        li {
+
+        }
+    }
+}
+
+section.pull-quote {
+    float: right;
+    font-size: 30px;
+    color: #B6E2B5;
+    max-width: 50%;
+    font-family: 'Merriweather', sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding: 120px 0 50px 50px;
+    text-align: justify;
+}
+
+/*
+html, body {
+    height: 100%;
+    //background: url(../images/crystal-bg.png);
+    background: #FCF7FA;
+    font-family: Candela;
+}
+.content {
+    min-height: 96%;
+}
+footer {
+    height: 4%;
+    text-align: center;
+    font-size: 0.75em;
+    a {
+        color: #000;
+    }
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    font-family: Enriqueta, sans-serif; 
+    background: #3B0780;
+    color: #fff;
+    box-sizing: border-box;
+}
+h1.left {
+    padding-left: 15px;
+    width: 85%;
+    float: left;
+}
+h1.right {
+    float: right;
+    background: #fff;
+    color: #000;
+    padding: 0;
+    text-align: center;
+    width: 15%;
+    border-top: 1px solid #3B0780;
+    border-bottom: 1px solid #3B0780;
+}
+
+nav {
+    height: 80px;
+    line-height: 80px;
+    ul {
+        padding-left: 0;
+    }
+    li {
+        background: #3B0780;
+        float: left;
+        width: 25%;
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+        font-size: 1.65em;
+        color: #fff;
+        border-right: 1px solid #fff;
+        box-sizing: border-box;
+    }
+    li:last-of-type {
+        border: 0;
+    }
+}
+.slideshow {
+    img {
+        width: 100%;
+    }
+    height: 200px;
+}
+article {
+    padding: 20px;
+    background: #fff;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+*/
