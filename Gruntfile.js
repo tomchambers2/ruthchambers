@@ -374,6 +374,12 @@ module.exports = function (grunt) {
             target: {
                 src: ['app/index.html','styles/main.scss']
             }
+        },
+        'gh-pages': {
+            options: {
+                base: 'dist'
+            },
+            src: ['**']
         }
     });
 
@@ -421,7 +427,6 @@ module.exports = function (grunt) {
         'cssmin',
         'uglify',
         'copy:dist',
-        'modernizr',
         'rev',
         'usemin',
         'htmlmin'
